@@ -1,24 +1,42 @@
 # NSDateMinimalTimeAgo
+NSDate category for very minimal style time ago.
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/NSDateMinimalTimeAgo/badge.png)](http://cocoadocs.org/docsets/NSDateMinimalTimeAgo)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/NSDateMinimalTimeAgo/badge.png)](http://cocoadocs.org/docsets/NSDateMinimalTimeAgo)
+- Time Ago Output
+    - Seconds - 45s
+    - Minutes - 45m
+    - Hours - 12h
+    - Days - 5d
+    - Weeks - 3w
+    - Months - 10mo
+    - Years - 2y
 
-## Usage
+## Examples
 
-To run the example project; clone the repo, and run `pod install` from the Project directory first.
+````objc
 
-## Requirements
+#import <NSDateMinimalTimeAgo/NSDate+MinimalTimeAgo.h> // If using CocoaPods
+#import "NSDate+MinimalTimeAgo.h" // If dropped files from Classes directory in project directly
+
+NSDate *somePastDate = [self somePastDate];
+NSString *timeAgo = [somePastDate timeAgo];
+
+````
 
 ## Installation
 
-NSDateMinimalTimeAgo is available through [CocoaPods](http://cocoapods.org), to install
+### Drop-in Classes
+Clone the repository and drop in the .h and .m files from the "Classes" directory into your project.
+
+### CocoaPods
+
+JSONAPI is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
-    pod "NSDateMinimalTimeAgo"
+    pod 'NSDateMinimalTimeAgo', :git => 'git@github.com:RokkinCat/wantable-ios.git'
 
 ## Author
 
-Josh Holtz, josh@rokkincat.com
+Josh Holtz, josh@rokkincat.com, [@joshdholtz](https://twitter.com/joshdholtz)
 
 ## License
 
