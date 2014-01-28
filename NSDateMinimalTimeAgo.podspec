@@ -1,16 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "NSDateMinimalTimeAgo"
   s.version      = "0.1.0"
-  s.summary      = "A short description of NSDateMinimalTimeAgo."
+  s.summary      = "NSDate category for very minimal style time ago"
   s.description  = <<-DESC
-                    An optional longer description of NSDateMinimalTimeAgo
-
-                    * Markdown format.
-                    * Don't worry about the indent, we strip it!
+                    Yeah son! NSDate category for very minimal style time ago.
                    DESC
   s.homepage     = "https://github.com/joshdholtz/NSDate-MinimalTimeAgo"
   s.license      = 'MIT'
-  s.author       = { "Josh Holtz" => "josh@rokkincat.com" }
+  s.author       = { "Josh Holtz" => "me@joshholtz.com" }
   s.source       = { :git => "https://github.com/joshdholtz/NSDate-MinimalTimeAgo.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'

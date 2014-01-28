@@ -22,6 +22,7 @@
 		038CC08D18980E2800A76089 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 038CC08B18980E2800A76089 /* InfoPlist.strings */; };
 		038CC08F18980E2800A76089 /* NSDateMinimalTimeAgoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 038CC08E18980E2800A76089 /* NSDateMinimalTimeAgoTests.m */; };
 		038CC09918980E4500A76089 /* NSDateMinimalTimeAgo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 038CC09818980E4500A76089 /* NSDateMinimalTimeAgo.podspec */; };
+		038CC09D18980F7E00A76089 /* NSDate+MinimalTimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 038CC09C18980F7E00A76089 /* NSDate+MinimalTimeAgo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		038CC08C18980E2800A76089 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		038CC08E18980E2800A76089 /* NSDateMinimalTimeAgoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateMinimalTimeAgoTests.m; sourceTree = "<group>"; };
 		038CC09818980E4500A76089 /* NSDateMinimalTimeAgo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NSDateMinimalTimeAgo.podspec; path = ../NSDateMinimalTimeAgo.podspec; sourceTree = "<group>"; };
+		038CC09B18980F7E00A76089 /* NSDate+MinimalTimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MinimalTimeAgo.h"; sourceTree = "<group>"; };
+		038CC09C18980F7E00A76089 /* NSDate+MinimalTimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MinimalTimeAgo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				038CC09818980E4500A76089 /* NSDateMinimalTimeAgo.podspec */,
+				038CC09A18980F6E00A76089 /* Classes */,
 				038CC06918980E2800A76089 /* NSDateMinimalTimeAgo */,
 				038CC08818980E2800A76089 /* NSDateMinimalTimeAgoTests */,
 				038CC06218980E2800A76089 /* Frameworks */,
@@ -153,6 +157,16 @@
 				038CC08B18980E2800A76089 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		038CC09A18980F6E00A76089 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				038CC09B18980F7E00A76089 /* NSDate+MinimalTimeAgo.h */,
+				038CC09C18980F7E00A76089 /* NSDate+MinimalTimeAgo.m */,
+			);
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				038CC07A18980E2800A76089 /* ViewController.m in Sources */,
+				038CC09D18980F7E00A76089 /* NSDate+MinimalTimeAgo.m in Sources */,
 				038CC07418980E2800A76089 /* AppDelegate.m in Sources */,
 				038CC07018980E2800A76089 /* main.m in Sources */,
 			);
