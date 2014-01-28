@@ -1,0 +1,7 @@
+pod "NSDateMinimalTimeAgo", :path => "../NSDateMinimalTimeAgo.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
