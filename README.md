@@ -29,7 +29,7 @@ Clone the repository and drop in the .h and .m files from the "Classes" director
 
 ### CocoaPods
 
-JSONAPI is available through [CocoaPods](http://cocoapods.org), to install
+NSDateMinimalTimeAgo is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
     pod 'NSDateMinimalTimeAgo', '~> 0.1.0'
