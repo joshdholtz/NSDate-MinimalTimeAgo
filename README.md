@@ -36,7 +36,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Josh Holtz, josh@rokkincat.com, [@joshdholtz](https://twitter.com/joshdholtz)
+Josh Holtz, me@joshholtz.com, [@joshdholtz](https://twitter.com/joshdholtz)
 
 ## License
 
